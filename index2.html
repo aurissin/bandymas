@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, minimum-scale=1"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Montserrat&family=Sacramento&display=swap"
+            rel="stylesheet"
+        />
+        <script
+            src="https://kit.fontawesome.com/b699c21610.js"
+            crossorigin="anonymous"
+        ></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+            integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI="
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+            integrity="sha256-4hqlsNP9KM6+2eA8VUT0kk4RsMRTeS7QGHIM+MZ5sLY="
+            crossorigin="anonymous"
+        />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>Pilna Burna</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container-fluid">
+                <nav class="nav">
+                    <a href="index.html" class="logo">
+                        <img src="img/logo.png" alt="logo" />
+                    </a>
+
+                    <div class="nav__button">
+                        <span class="nav__icon"></span>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">Pagrindinis</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">Apie mus</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#team" class="nav-link">Komanda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#menu" class="nav-link">Meniu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#reservation" class="nav-link"
+                                >Rezervacija</a
+                            >
+                        </li>
+                    </ul>
+
+                    <ul class="icons">
+                        <li class="icon"><i class="fas fa-search"></i></li>
+                        <li class="icon"><i class="fab fa-twitter"></i></li>
+                        <li class="icon"><i class="fab fa-facebook-f"></i></li>
+                        <li class="icon"><i class="fab fa-instagram"></i></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="hero" id="home">
+                <div class="container">
+                    <div class="premium-container">
+                        <img
+                            class="premium"
+                            src="img/Premium.png"
+                            alt="Premium"
+                        />
+                        <h3 class="quality">Kokybe</h3>
+                    </div>
+
+                    <div class="restaurant-title">
+                        <h1 class="title">
+                            Restoranas <br />
+                            ir Patiekalai
+                        </h1>
+                    </div>
+                </div>
+
+                <a class="go-top" href="#"><i class="fas fa-arrow-up"></i></a>
+            </div>
+
+            <section class="offers">
+                <div class="container">
+                    <h2 class="section-title">Ka Mes Galime Pasiulyti</h2>
+                    <h3 class="section-subtitle">Tiesiai is sirdies</h3>
+                    <div class="three-columns-grid">
+                        <div
+                            class="grid-item"
+                            data-aos="fade-right"
+                            data-aos-offset="400"
+                            data-aos-duration="1000"
+                        >
+                            <img src="img/pic1.png" alt="" width="200" />
+                            <h3 class="subtitle">
+                                <strong>Specialus </strong> Vynai
+                            </h3>
+                            <p class="paragraph">
+                                “Pilna Burna” tarptautiniame “Baltic Wine List Awards 2020” čempionate laimėjo aukščiausią apdovanojimą šiose kategorijose
+                                Best Hotel – Restaurant For Wine Lovers in Lithuania
+                                Best Dessert Wine List in The Baltic Countries
+                                Exceptional Resort Wine List
+                            </p>
+                        </div>
+                        <div
+                            class="grid-item"
+                            data-aos="fade-up"
+                            data-aos-offset="400"
+                            data-aos-duration="1000"
+                        >
+                            <img src="img/pic2.png" alt="" width="200" />
+                            <h3 class="subtitle">
+                                <strong>Ekologiski</strong> Produktai
+                            </h3>
+                            <p class="paragraph">
+                                Visas daržoves auginame patys. 
+                                Viskas tiesiai iš mūsu ūkio.
+                            </p>
+                        </div>
+                        <div
+                            class="grid-item"
+                            data-aos="fade-left"
+                            data-aos-offset="400"
+                            data-aos-duration="1000"
+                        >
+                            <img src="img/pic3.png" alt="" width="200" />
+                            <h3 class="subtitle">
+                                <strong>Sveikuoliški</strong> Desertai
+                            </h3>
+                            <p class="paragraph">
+                                Desertai yra pagaminti iš naturaliu 
+                                produktų ir neturiu cukraus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about" id="about">
+                <div class="container-fluid">
+                    <div class="two-columns-grid">
+                        <div
+                            class="top-tart"
+                            data-aos="fade-right"
+                            data-aos-offset="400"
+                            data-aos-duration="1000"
+                        >
+                            <img src="img/tart.jpg" alt="Tart" class="tart" />
+                        </div>
+                        <div
+                            class="about-us"
+                            data-aos="fade-left"
+                            data-aos-offset="400"
+                            data-aos-duration="1000"
+                        >
+                            <h2 class="section-title welcome">
+                                Sveiki atvyke i Pilna Burna restorana
+                            </h2>
+                            <p class="about-paragraph">
+                                leiskite mums pasirūpinti maistu bei gėrimais –
+                                dovanokite sau prabangą tiesiog skanauti, bendrauti ir mėgautis
+                                Kviečiame įsigyti elektroninius dovanų kuponus
+
+
+                            </p>
+                            <a href="#" class="btn">Apie mus</a>
+                        </div>
+                    </div>
+
+                    <div class="two-columns-grid third-grid">
+                        <div
+                            class="read-more"
+                            data-aos="fade-right"
+                            data-aos-offset="400"
+                            data-aos-duration="1000"
+                        >
+                            <h2 class="section-title welcome">
+                                Chefas atvykes iš kito pasaulio krašto
+                            </h2>
+                            <p class="about-paragraph">
+                                Chefas keliaves aplink pasauli ir surinkes ilgametine patirti apie maista.
+                                Galima jums pasiulyti ivairu meniu. Kieviena diena keičiasi meniu.
+                
+                            </p>
+                            <a href="#" class="btn">Skaityti daugiau</a>
+                        </div>
+                        <div
+                            class="top-fruits"
+                            data-aos="fade-left"
+                            data-aos-offset="400"
+                            data-aos-duration="1000"
+                        >
+                            <img
+                                src="img/top-view-of-fruits.jpg"
+                                alt="Fruits"
+                                class="fruits"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="team" id="team">
+                <div class="container">
+                    <h2 class="section-title">Musu Komanda</h2>
+                    <h3 class="section-subtitle">yra geriausia</h3>
+                    <div class="four-columns-grid">
+                        <div
+                            class="team-member"
+                            data-aos="fade-up"
+                            data-aos-offset="300"
+                            data-aos-duration="1000"
+                        >
+                            <img src="img/team1.png" alt="Team Member 1" />
+                            <h2 class="name">Skaiste Petrakaite</h2>
+                            <h3 class="position">Vadybininke</h3>
+                            <p class="description-paragraph">
+                                Esu darbststi konkreti ir megstanti vadovauti
+                            </p>
+                        </div>
+                        <div
+                            class="team-member"
+                            data-aos="fade-up"
+                            data-aos-offset="300"
+                            data-aos-duration="1000"
+                        >
+                            <img src="img/team2.png" alt="Team Member 2" />
+                            <h2 class="name">Tim Baker</h2>
+                            <h3 class="position">Baro vadovas</h3>
+                            <p class="description-paragraph">
+                                Turiu ilgamete patirti už baro, dirbu jau 30 metu.
+                                Galiu padaryti tokiu kokteiliu kad pamirši iš kur atejai.
+                            </p>
+                        </div>
+                        <div
+                            class="team-member"
+                            data-aos="fade-up"
+                            data-aos-offset="300"
+                            data-aos-duration="1000"
+                        >
+                            <img src="img/team3.png" alt="Team Member 3" />
+                            <h2 class="name">Kamile Kam</h2>
+                            <h3 class="position">Virtuves Chefe</h3>
+                            <p class="description-paragraph">
+                                Esu užsispyrus, vadovaujanti ir manes geriau neerzinti.
+                            </p>
+                        </div>
+                        <div
+                            class="team-member"
+                            data-aos="fade-up"
+                            data-aos-offset="300"
+                            data-aos-duration="1000"
+                        >
+                            <img src="img/team4.png" alt="Team Member 4" />
+                            <h2 class="name">Jonas Jonaitis</h2>
+                            <h3 class="position">Vynu vadovas</h3>
+                            <p class="description-paragraph">
+                                Galiu pasiulyti jums vyna pagal nuotaika.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="menu" id="menu">
+                <div class="menu-header"></div>
+                <div
+                    class="menu-card"
+                    data-aos="fade-up"
+                    data-aos-offset="300"
+                    data-aos-duration="1000"
+                >
+                    <div class="menu-card-header">
+                        <img
+                            class="fish"
+                            src="img/fish&steak.png"
+                            alt="Fish & Steak"
+                        />
+                        <h2 class="section-title menu-title">
+                            Pasimegaukit geriausiu laiku savo gyvenime
+                        </h2>
+                        <h3 class="section-subtitle">sitam restorane</h3>
+                    </div>
+
+                    <div class="two-columns-grid">
+                        <div class="starters">
+                            <h2>Vynai</h2>
+                            <div class="starter">
+                                <div class="starter-header">
+                                    <h3>Louis Roederer Brut Premier</h3>
+                                    <h4 class="price">56$
+                                    </h4>
+                                </div>
+                                <p class="menu-paragraph">
+                                    Tai švelnumo, gaivos ir elegancijos viršūnė. 
+                                    Tropinių vaisių ir baltų gėlių aromatų puokštė, kuri jaučiama tiek aromate, tiek skonyje. 
+                                    Ilgas ir subtilus poskonis. Louis Roederer jau šimtus metų žinomas kaip kokybės etalonas.
+                                </p>
+                            </div>
+
+                            <div class="starter">
+                                <div class="starter-header">
+                                    <h3>Laurent-Perrier Rose Brut</h3>
+                                    <h4 class="price">60$</h4>
+                                </div>
+                                <p class="menu-paragraph">
+                                Tai vienas vaisiškiausių ir subtiliausių šampanų, savo tekstūra primenantis netgi putojantį raudoną vyną. 
+                                Subtiliai išreikštos raudonos uogos, o tvirtą šampano charakterį papildyto gaivi rūgštis ir ilgas, sodrus poskonis. 
+                                Šis vynas pagamintas iš 100 proc “Pinot Noir”, o didžioji dalis vynuogių surenkama iš Grand Cru statusą turinčių vynuogynų.
+                                </p>
+                            </div>
+
+                            <div class="starter">
+                                <div class="starter-header">
+                                    <h3>Weingut Brundlmayer Gruner Vetliner Terrassen DAC</h3>
+                                    <h4 class="price">10$</h4>
+                                </div>
+                                <p class="menu-paragraph">
+                                    Mineralai, gaiva ir rūgštis. 
+                                    Tada dar obuoliai, persikai, medus ir balti pipirai. 
+                                    Vynas, iš pačios populiariausios Austrijos vynuogės – Gruner Veltliner.
+                                    Tai vienas geriausių Austrijos vynų už tokią kainą.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mains">
+                            <h2>Pagrindiniai</h2>
+                            <div class="starter">
+                                <div class="starter-header">
+                                    <h3>Dr.Loosen Ürziger Würzgarten Riesling VDP 2017</h3>
+                                    <h4 class="price">70$</h4>
+                                </div>
+                                <p class="menu-paragraph">
+                                    Vienas universaliausių ir mėgiamiausių mūsų vynų. 
+                                    Ir mums labai apmaudu, jog Lietuvoje jo atsiranda tik 80 ar 100 butelių. 
+                                    Tai labai stačiama šlaite augančių Riesling vynuogių derliaus vynas. 
+                                    Tobulas vaisių ir mineral derinys. Puikiai geriamas dabar, o dar geresnis tampa laikant rūsyje bent kelis metus.
+                                </p>
+                            </div>
+
+                            <div class="starter">
+                                <div class="starter-header">
+                                    <h3>Anwilka Stellenbosch WO 2014</h3>
+                                    <h4 class="price">65$</h4>
+                                </div>
+                                <p class="menu-paragraph">
+                                    Nerealus vaisiškumo, sodrumo ir galios derinys. 
+                                    Puikiai perteiktos tamsių uogų ir aromatų natos. 
+                                    Vienu metu Anwilka buvo vadinamas geriausių Pietų Afrikos vynu. 
+                                    Pats gėrimas yra sodrus, intensyvus ir galingas, o jo taninai švelnūs. 
+                                    Vienas geriausių ir universaliausių vynų, kai reikia derinti jį su keptos mėsos patiekalais.
+                                </p>
+                            </div>
+
+                            <div class="starter">
+                                <div class="starter-header">
+                                    <h3>Xavier Vignon Lirac AOP 2017</h3>
+                                    <h4 class="price">35$</h4>
+                                </div>
+                                <p class="menu-paragraph">
+                                    Vienas geriausių mūsų turimų kainos ir kokybės santykio vynų. 
+                                    Jis pagamintas iš Syrah ir Grenache vynuogių, surinktų pietinės Ronos Lirac apeliacijoje.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="customers">
+                <div class="container">
+                    <h2 class="section-title">Klientai</h2>
+                    <h3 class="section-subtitle">Atsiliepimai apie mus</h3>
+                    <div class="carousel">
+                        <div>
+                            <img src="img/carousel1.png" alt="" />
+                            <p class="testimonial-paragraph">
+                                Magiška viešbučio vieta. Malonus ir rūpestingas personalas, sotūs pusryčiai, kuklus kambario interjeras.
+
+                            </p>
+                            <h2 class="name">Linas Josvainaite</h2>
+                        </div>
+                        <div>
+                            <img src="img/carousel2.png" alt="" />
+                            <p class="testimonial-paragraph">
+                                Personalas malonus, grazus pats kompleksas ir gamta aplinkui.
+                            </p>
+                            <h2 class="name">Tomas Tamasinas</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="book" id="reservation">
+                <div class="container-fluid">
+                    <div class="book-card">
+                        <h2 class="section-title book-title">
+                            Pasirinkite data ir rezervuokite laika dabar!
+                        </h2>
+                        <h3 class="section-subtitle">
+                            Mes atsiusime patvirtinima jums el.pastu
+                        </h3>
+                        <div class="two-columns-grid">
+                            <div class="form-group">
+                                <input
+                                    type="text"
+                                    id="first"
+                                    class="input"
+                                    placeholder="First Name*"
+                                />
+                            </div>
+                            <div class="form-group">
+                                <input
+                                    type="text"
+                                    id="last"
+                                    class="input"
+                                    placeholder="Last Name*"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="two-columns-grid">
+                            <div class="form-group">
+                                <input
+                                    type="email"
+                                    id="email"
+                                    class="input"
+                                    placeholder="E-mail Address*"
+                                />
+                            </div>
+                            <div class="form-group">
+                                <input
+                                    type="text"
+                                    id="phone"
+                                    class="input"
+                                    placeholder="Phone Number"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="three-columns-grid">
+                            <div class="form-group">
+                                <input type="date" id="date" />
+                            </div>
+                            <div class="form-group">
+                                <select name="time" id="time">
+                                    <option value="">9:00</option>
+                                    <option value="">9:30</option>
+                                    <option value="">10:00</option>
+                                    <option value="">10:30</option>
+                                    <option value="">11:00</option>
+                                    <option value="">11:30</option>
+                                    <option value="">12:00</option>
+                                    <option value="">12:30</option>
+                                    <option value="">13:00</option>
+                                    <option value="">13:30</option>
+                                    <option value="">14:00</option>
+                                    <option value="">14:30</option>
+                                    <option value="">15:00</option>
+                                    <option value="">15:30</option>
+                                    <option value="">16:00</option>
+                                    <option value="">16:30</option>
+                                    <option value="">17:00</option>
+                                    <option value="">17:30</option>
+                                    <option value="">18:00</option>
+                                    <option value="">18:30</option>
+                                    <option value="">19:00</option>
+                                    <option value="">19:30</option>
+                                    <option value="">20:00</option>
+                                    <option value="">20:30</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select name="persons" id="persons">
+                                    <option value="">Persons*</option>
+                                    <option value="">1 Person</option>
+                                    <option value="">2 Persons</option>
+                                    <option value="">3 Persons</option>
+                                    <option value="">4 Persons</option>
+                                    <option value="">5 Persons</option>
+                                    <option value="">6 Persons</option>
+                                    <option value="">7 Persons</option>
+                                    <option value="">8 Persons</option>
+                                    <option value="">9 Persons</option>
+                                    <option value="">10 Persons</option>
+                                </select>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-book">Užsirezervuok dabar!</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+        </footer>
+
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+            integrity="sha256-NXRS8qVcmZ3dOv3LziwznUHPegFhPZ1F/4inU7uC8h0="
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="app.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
